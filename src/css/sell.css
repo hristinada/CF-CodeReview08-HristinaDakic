@@ -1,0 +1,37 @@
+
+/*=============================*/
+/* SELL */
+/*=============================*/
+
+.createEntry {
+  margin: 10vw;
+  color: grey;
+  font-size: 1.2vw;
+
+}
+
+.sellForm {
+  display: grid;
+  grid-column-gap: 3vw;
+  grid-template-columns: auto auto;
+  margin: 3vw;
+  color: grey;
+}
+
+#imgPreview {
+  width: 30vw;
+  height: 25vw;
+}
+
+input[type="file"] {
+  outline: none;
+  border: solid grey 0.5px;
+}
+
+.sellForm input[type="text"] {
+  border: solid grey 0.5px;
+  width: 15vw;
+  height: 2vw;
+  font-size: 1.5vw;
+}
+

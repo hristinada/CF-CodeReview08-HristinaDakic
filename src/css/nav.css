@@ -1,0 +1,55 @@
+/*=============================*/
+/* navigation */
+/*=============================*/
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navigation {
+  background-color: rgba(0,0,0, 0.2);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.navigation ul li {
+  display: inline;
+  font-size: 1.5vw;
+  margin-right: 1vw;
+}
+
+.navigation ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 2vw;
+}
+
+.navigation ul li .active {
+  font-weight: bold;
+  color: #666666;
+}
+
+.loginButton {
+  padding: 0.5vw 1.5vw;
+  font-size: 1.5vw;
+  border: solid white;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  outline: none;
+  align-self: center;
+  box-shadow: 0px 10px 17px -8px rgba(0,0,0,0.75);
+}

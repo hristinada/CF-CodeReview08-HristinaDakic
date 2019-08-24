@@ -1,0 +1,51 @@
+
+/*=============================*/
+/* CONTACT */
+/*=============================*/
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15vw;
+  color: grey;
+  font-size: 1.2vw;
+}
+
+.getInTouch p a {
+  text-decoration: none;
+}
+
+table input {
+  padding: 0.5vw;
+  width: 15vw;
+  border: solid grey 0.5px;
+  outline: none;
+}
+
+table textarea {
+  padding: 0.5vw;
+  border: solid grey 0.5px;
+  outline: none;
+}
+
+.contactButtonDiv {
+  width: 100%;
+  text-align: right;
+}
+
+.contactButton {
+  padding: 0.5vw 1.5vw;
+  font-size: 1.2vw;
+  border: solid grey;
+  color: grey;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contactButton:hover {
+  outline: none;
+  align-self: center;
+  box-shadow: 0px 10px 17px -8px rgba(0,0,0,0.75);
+}
+
