@@ -16,7 +16,7 @@ function HomeComponent() {
 			<div className='hero' style={imgStyle}>
 			    <NavigationComponent/>
 				<div className='title'>
-					<h1>Find Your Deam Home</h1>
+					<h1>Find Your Dream Home</h1>
 					<h4>Appartements-Houses-Mansions</h4>
 				</div>
 			</div>
